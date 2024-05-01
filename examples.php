@@ -33,7 +33,8 @@ echo "$firstWord $secondWord";
 $array = range(0, 10);
 
 // Loop over each index in the array.
-for ($i = 0; $i < count($array); $i++) {    if ($array[$i] % 2 == 0) {
+for ($i = 0; $i < count($array); $i++) {    
+    if ($array[$i] % 2 == 0) {
         echo "$array[$i] is even.<br />\n";
     } else {
         echo "$array[$i] is odd.<br />\n";
@@ -49,7 +50,8 @@ for ($i = 0; $i < count($array); $i++) {    if ($array[$i] % 2 == 0) {
 $array = range(0, 10);
 
 // Loop over each index and value in the array.
-foreach ($array as $key => $value) {    if ($value % 2 == 0) {
+foreach ($array as $key => $value) {
+    if ($value % 2 == 0) {
         echo "$value is even.<br />\n";
     } else {
         echo "$value is odd.<br />\n";
@@ -65,7 +67,8 @@ foreach ($array as $key => $value) {    if ($value % 2 == 0) {
 $array = range(0, 10);
 
 // Loop over each value in the array.
-foreach ($array as &$value) {    if ($value % 2 == 0) {
+foreach ($array as &$value) {
+    if ($value % 2 == 0) {
         echo "$value is even.<br />\n";
     } else {
         echo "$value is odd.<br />\n";
@@ -79,7 +82,8 @@ foreach ($array as &$value) {    if ($value % 2 == 0) {
 
 <?php
 $firstWord = 'Hello';
-$secondWord = 'World';echo '
+$secondWord = 'World';
+echo '
 <!DOCTYPE html>
 <html>
   <head>
@@ -99,7 +103,8 @@ $secondWord = 'World';echo '
 
 <?php
 $firstWord = 'Hello';
-$secondWord = 'World';echo <<<END
+$secondWord = 'World';
+echo <<<END
 <!DOCTYPE html>
 <html>
   <head>
