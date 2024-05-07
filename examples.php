@@ -140,7 +140,7 @@ var_dump($array);
 //
 
 <?php
-$fileName = 'mydata.txt';
+$fileName = 'mydata.csv';
 
 $data = file($fileName);
 foreach ($data as $datum) {
