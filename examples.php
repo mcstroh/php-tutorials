@@ -128,7 +128,7 @@ $fileName = 'mydata.csv';
 
 $handle = fopen($fileName, 'r');
 while (($data = fgetcsv($handle)) !== False) {
-    $array[] = $data
+    $array[] = $data;
 }
 
 // Dump information about a variable
