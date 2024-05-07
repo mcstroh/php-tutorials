@@ -179,7 +179,7 @@ function add($x, $y)
 }
 
 $z = add(1, 6);
-echo "$z\n"
+echo "$z<br />\n";
 
 function ciera_example()
 {
